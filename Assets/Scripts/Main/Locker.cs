@@ -7,7 +7,15 @@ public class Locker : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI LKtxt;
     public int LK;
-    public void LKP(){
+    public void LKl(){
+        if(LK!=10){
+            LK = LK-1;
+        }
+        if(LK==0){
+            LK=9;
+        }
+    }
+    public void LKr(){
         if(LK!=10){
             LK = LK+1;
         }
