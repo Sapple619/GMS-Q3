@@ -11,7 +11,7 @@ public class Locker : MonoBehaviour
         if(LK!=10){
             LK = LK-1;
         }
-        if(LK==0){
+        if(LK==-1){
             LK=9;
         }
     }
@@ -20,7 +20,7 @@ public class Locker : MonoBehaviour
             LK = LK+1;
         }
         if(LK==10){
-            LK=1;
+            LK=0;
         }
     }
     
