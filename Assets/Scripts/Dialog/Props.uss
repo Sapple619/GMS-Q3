@@ -1,0 +1,49 @@
+.background {
+    flex-grow: 1;
+    background-color: rgb(255, 0, 0);
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4561253339802451974&guid=b194c5db2666a224294f6927ea0b9b61&type=3#Font Texture');
+}
+
+.box {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.47);
+    height: 400px;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    flex-basis: auto;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: auto;
+    left: auto;
+    bottom: auto;
+    top: 66%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.date {
+    font-size: 50px;
+    right: 68%;
+    bottom: 10%;
+    -unity-font-style: normal;
+    width: 556px;
+    height: 76px;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    font-size: 150%;
+    bottom: 15%;
+    right: 22px;
+    width: 1834px;
+    color: rgb(255, 255, 255);
+}
