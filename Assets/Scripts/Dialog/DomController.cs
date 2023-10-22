@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class DialogController : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class DialogController : MonoBehaviour
     {
         if (currentLine >= dialogLines.Count)
         {
-            Debug.Log("스크립트 끝");
+            SceneManager.LoadScene("Main");
             return;
         }
 

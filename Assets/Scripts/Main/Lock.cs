@@ -21,7 +21,7 @@ public class Lock : MonoBehaviour
         
     }
     public void LKC(){
-        if(lockers[0].LK==5 && lockers[1].LK==4 && lockers[2].LK==5 && lockers[3].LK==2){
+        if(lockers[0].LK==9 && lockers[1].LK==5 && lockers[2].LK==6 && lockers[3].LK==6){
             LKF.gameObject.SetActive(false);
             lckro.gameObject.SetActive(false);
             dr.IsLocked = false;
