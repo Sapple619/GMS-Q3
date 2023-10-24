@@ -10,8 +10,8 @@ public class ShowEnding : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NameT.text = GetString("PlayerName","최재령");
-        TimeT.text = GetString("time","??:??");
+        NameT.text = PlayerPrefs.GetString("PlayerName","최재령");
+        TimeT.text = PlayerPrefs.GetString("time","??:??");
     }
 
 }
