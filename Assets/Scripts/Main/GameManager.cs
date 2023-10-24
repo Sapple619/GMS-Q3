@@ -34,6 +34,6 @@ public class GameManager : MonoBehaviour
 
     public void clear(){
         PlayerPrefs.SetString("time",time_T.text);
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Ending");
     }
 }
