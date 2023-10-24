@@ -198,8 +198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -468.00003, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -55.9, y: 0}
+  m_SizeDelta: {x: 1024.19, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &93853650
 MonoBehaviour:
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC7A5\uC18C             \uD55C\uAD6D\uACE0\uB4F1\uD559\uAD50 \uC804\uC5ED"
+  m_text: "\uC7A5\uC18C             \uACBD\uBB38\uACE0\uB4F1\uD559\uAD50 \uC804\uC5ED"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 355fbdf38ae72ea4e9f77501217190b8, type: 2}
   m_sharedMaterial: {fileID: 2800448550169687223, guid: 355fbdf38ae72ea4e9f77501217190b8, type: 2}
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.000022888184, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1550,6 +1550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stamp: {fileID: 1340855793}
   topSecret: {fileID: 838806494}
+  playerNameInput: {fileID: 612814055}
 --- !u!4 &677625759
 Transform:
   m_ObjectHideFlags: 0
@@ -2345,7 +2346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC77C\uC790             2030\uB144 3\uC6D4 3\uC77C"
+  m_text: "\uC77C\uC790             20XX\uB144 3\uC6D4 3\uC77C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 355fbdf38ae72ea4e9f77501217190b8, type: 2}
   m_sharedMaterial: {fileID: 2800448550169687223, guid: 355fbdf38ae72ea4e9f77501217190b8, type: 2}

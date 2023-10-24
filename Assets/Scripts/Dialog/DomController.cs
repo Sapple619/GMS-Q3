@@ -18,6 +18,7 @@ public class DialogController : MonoBehaviour
 
     void Start()
     {
+        username = PlayerPrefs.GetString("PlayerName");
         var root = GetComponent<UIDocument>().rootVisualElement;
         background = root.Q<VisualElement>("background");
         dateLabel = root.Q<Label>("date");
