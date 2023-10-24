@@ -14,7 +14,7 @@ public class DialogController : MonoBehaviour
     private int currentLine = 0;
 
     private int currentImageIndex = 0;
-    private string username = "이명박";
+    private string username = "최재령";
 
     void Start()
     {

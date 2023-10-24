@@ -17,7 +17,7 @@ public class PuzzleCheck : MonoBehaviour
     void Start()
     {
         for(int i = 0;i<16;i++){
-            if(Puzzle[i] == 3){
+            if(Puzzle[i] == Blank){
                 continue;
             }
             GameObject NBlock =  Instantiate(obj, new Vector3(0,0,0), Quaternion.identity);

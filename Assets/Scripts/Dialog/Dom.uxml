@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Scripts/Dialog/Props.uss?fileID=7433441132597879392&amp;guid=35f01bf4d5534bb42aae3ccca4c34704&amp;type=3#Props" />
-    <ui:VisualElement name="background" class="background" style="background-image: url(&apos;project://database/Assets/Assets/Dialog/MB.jpeg?fileID=2800000&amp;guid=25fb83e3435f8d84e8b6a1732df1d2f7&amp;type=3#MB&apos;); background-color: rgb(255, 0, 0);">
+    <ui:VisualElement name="background" class="background" style="background-image: url(&apos;project://database/Assets/Assets/Dialog/-_2x.png?fileID=2800000&amp;guid=685fc891708f1994f943e02b62be3e3b&amp;type=3#-_2x&apos;); background-color: rgb(255, 0, 0);">
         <ui:VisualElement name="box" class="box" style="top: 65%;">
             <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="date" class="date" style="bottom: 260px; position: absolute; right: 1293px;" />
             <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="content" class="content" style="font-size: 80px; position: absolute; bottom: 10%; flex-direction: column-reverse; -unity-text-align: upper-left; height: 214px;" />
