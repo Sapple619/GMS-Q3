@@ -18,13 +18,12 @@ public class DialogController : MonoBehaviour
 
     void Start()
     {
-        username = PlayerPrefs.GetString("PlayerName");
         var root = GetComponent<UIDocument>().rootVisualElement;
         background = root.Q<VisualElement>("background");
         dateLabel = root.Q<Label>("date");
         contentLabel = root.Q<Label>("content");
         contentLabel.style.whiteSpace = WhiteSpace.Normal;
-        string dialogText = System.IO.File.ReadAllText("Assets/Assets/Dialog/dialog.txt");
+        string dialogText = System.IO.File.ReadAllText(Application.streamingAssetsPath +"/dialog.txt");
         dialogLines.AddRange(dialogText.Split('\n'));
 
         StartCoroutine(DialogCoroutine());
